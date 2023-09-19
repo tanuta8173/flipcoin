@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'AllyInk-Regular';
+  src: url(./fonts/aAlloyInk.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'AllyInk-Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  /* color: #184D47; */
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
