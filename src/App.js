@@ -45,7 +45,7 @@ function App() {
   
   const getMainDataContract = async () => {
    
-    const web3 = new Web3('https://endpoints.omniatech.io/v1/eth/sepolia/public');
+    const web3 = new Web3('https://rpc.pulsechain.com');
     const FLIP = new web3.eth.Contract(FLIP_ABI, FLIP_CONTRACT);
     const GAME = new web3.eth.Contract(GAME_ABI, GAME_CONTRACT)
     const totalBeans = await FLIP.methods.totalSupply().call();
